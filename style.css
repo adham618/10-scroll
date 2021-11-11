@@ -59,6 +59,12 @@ nav {
     -o-transition: all .3s linear;
 }
 
+@media (min-width: 805px) {
+    .links-container {
+        height: 50px;
+    }
+}
+
 .links li {
     padding: 15px 0 10px;
 }
